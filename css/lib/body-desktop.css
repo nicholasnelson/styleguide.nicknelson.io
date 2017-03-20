@@ -1,0 +1,16 @@
+/*
+  Increase font size for non-mobile users
+  */
+html {
+  font-size: 0.9em;
+}
+
+/*
+  Apply a max-width to the content-pane so it looks nice on wide screens
+  */
+.content-pane {
+  max-width: 1000px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}

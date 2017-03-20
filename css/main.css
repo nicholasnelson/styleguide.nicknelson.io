@@ -1,18 +1,24 @@
 /*-------------------
-Style Sheet for {Project name and url}
+Style Sheet for style.nicknelson.io
 
-author: {name}
-email: {email}
-website: {portfolio}
+author: Nick Nelson
+email: nnelson263@gmail.com
+website: nicknelson.io
 ---------------------*/
 
 /*
-	Vendor imports (libs etc)
+  Vendor imports (libs etc)
 */
 @import 'vendor/normalize.css';
 @import 'vendor/browserupgrade.css';
 
 /*
-	Our imports
+  Our imports
 */
+@import 'lib/theme.css';
+
 @import 'lib/nav.css';
+@import 'lib/nav-desktop.css' (min-width: 600px);
+
+@import 'lib/body.css';
+@import 'lib/body-desktop.css' (min-width: 600px);

@@ -1,0 +1,31 @@
+/*
+  Desktop specific themeing of navigation components
+  */
+
+nav{
+  position:relative;
+  border:none;
+  visibility:hidden;
+  width:auto;
+  float:left;
+}
+
+.nav-menu-button{
+  display:none;
+}
+
+ul.nav-menu-content{
+  padding:30px;
+}
+
+ul.nav-menu-content,ul.nav-menu-content:hover,ul.nav-menu-content > li{
+  visibility:visible;
+  display:inline;
+  text-align:center;
+  position:relative;
+  top:auto;
+}
+
+span.nav-menu-button{
+  top:0;
+}

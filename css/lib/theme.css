@@ -1,0 +1,109 @@
+/*
+  Color palette
+  */
+:root {
+  --color-accent-darkest: #000075;
+  --color-accent-dark: #000098;
+  --color-accent-normal: #6626A0;
+  --color-accent-light: #8585FF;
+  --color-accent-lightest: #B1B1FF;
+  --color-standard-darkest: #000005;
+  --color-standard-dark: #0d0d0d;
+  --color-standard-normal: #666666;
+  --color-standard-light: #BBBBBB;
+  --color-standard-lightest: #ffffff;
+}
+
+/*
+  Color classes, mainly for palette testing
+  */
+
+.color-accent-darkest {
+  background-color: var(--color-accent-darkest);
+}
+
+.color-accent-dark {
+  background-color: var(--color-accent-dark);
+}
+
+.color-accent-normal {
+  background-color: var(--color-accent-normal);
+}
+
+.color-accent-light {
+  background-color: var(--color-accent-light);
+}
+
+.color-accent-lightest {
+  background-color: var(--color-accent-lightest);
+}
+
+.color-standard-darkest {
+  background-color: var(--color-standard-darkest);
+}
+
+.color-standard-dark {
+  background-color: var(--color-standard-dark);
+}
+
+.color-standard-normal {
+  background-color: var(--color-standard-normal);
+}
+
+.color-standard-light {
+  background-color: var(--color-standard-light);
+}
+
+.color-standard-lightest {
+  background-color: var(--color-standard-lightest);
+}
+
+/*
+  Custom Google Font
+  */
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+
+/*
+  Themeing and fonts for all elements
+  */
+html {
+  font-family: 'Source Code Pro', monospace;
+  color: var(--color-standard-dark);
+  background-color: var(--color-accent-light);
+  background-image: url('../../images/atom.png');
+  background-attachment: fixed;
+}
+
+header {
+  background-color: var(--color-standard-darkest);
+  color: var(--color-accent-normal);
+}
+
+nav {
+  background-color: var(--color-standard-dark);
+}
+
+ul.nav-menu-content {
+  background-color: var(--color-standard-light);
+}
+
+div.section-cover {
+  background-color: var(--color-standard-light);
+}
+
+div.section-content {
+  background-color: var(--color-standard-light);
+}
+
+.displaycard {
+  background-color: var(--color-accent-normal);
+}
+
+.displaycard-content {
+  background-color: var(--color-standard-light);
+}
+
+.displaycard-heading {
+  color: var(--color-standard-light);
+}
