@@ -14,3 +14,11 @@ html {
   margin-left: auto;
   margin-right: auto;
 }
+
+.displaycard-centered {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  max-width: 1000px;
+}

@@ -1,0 +1,23 @@
+<div id="edit-note-overlay" class="fullscreen-overlay displaycard-container">
+  <div id="edit-note-displaycard" class="displaycard displaycard-centered">
+    <div class="displaycard-heading">
+      <% if(note.text != '') { %>
+        <h2>Edit Post</h2>
+      <% } else { %>
+        <h2>New Post</h2>
+      <% } %>
+      <h3 id="edit-post-close-button" class="close-button">X</h3>
+    </div>
+    <div class="displaycard-content">
+      <p>Edit your note here.</p>
+        <input id="note-date-input" type="hidden" value="<%= note.date %>">
+        <div class="formcomponent">
+          <textarea id="note-text-input"><%= note.text %></textarea>
+        </div>
+        <div class="formcomponent">
+          <button id="save-note-button">Save</button>
+          <button id="delete-note-button">Delete</button>
+        </div>
+    </div>
+  </div>
+</div>

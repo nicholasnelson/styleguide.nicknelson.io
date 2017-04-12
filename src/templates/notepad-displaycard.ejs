@@ -1,0 +1,5 @@
+<div id="notecard-display" class="displaycard-container">
+  <% for(const id in notes) { %>
+    <%- notes[id].toHTML() %>
+  <% } %>
+</div>

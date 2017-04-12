@@ -71,8 +71,31 @@ blockquote {
 .displaycard-heading {
   margin: 0px;
   padding: 10px;
+  display: flex;
 }
 
+/*
+  Style for fullscreen-overlay
+  */
+.fullscreen-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+.fullscreen-overlay-content {
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 5px #333333;
+}
+  
 /*
   Use flex display for forms
   */
@@ -92,4 +115,23 @@ ol.color-palette > li {
   color: white;
   background-color: black;
   mix-blend-mode: difference;
+}
+
+/*
+  <textarea>
+  */
+textarea {
+  width: 100%;
+  min-height: 300px;
+  resize: vertical;
+}
+
+.close-button {
+  margin: 10px;
+  padding: 5px;
+  vertical-align: middle;
+}
+
+.displaycard-heading>h2 {
+  margin-right: auto;
 }

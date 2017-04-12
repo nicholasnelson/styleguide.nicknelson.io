@@ -107,3 +107,7 @@ div.section-content {
 .displaycard-heading {
   color: var(--color-standard-light);
 }
+
+.fullscreen-overlay-content {
+  background-color: var(--color-standard-light);
+}

@@ -22,7 +22,7 @@ module.exports = function(grunt) {
         dest: 'build/js/app.js',
         options: {
           browserifyOptions: {debug: true},
-          transform: [['babelify', {presets: ['es2015']}]]
+          transform: [['browserify-ejs', {filename: 'src/templates/**/*'}], ['babelify', {presets: ['es2015']}]]
         }
       }
     },
@@ -42,7 +42,7 @@ module.exports = function(grunt) {
     },
     'watch': {
       scripts: {
-        files: ['src/js/**/*.js'],
+        files: ['src/js/**/*.js', 'src/templates/**/*.ejs'],
         tasks: ['watchRebuildScripts']
       },
       html: {
