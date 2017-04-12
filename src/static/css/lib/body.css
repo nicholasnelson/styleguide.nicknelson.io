@@ -80,7 +80,7 @@ blockquote {
   display: flex;
 }
 
-list.color-palette {
+ol.color-palette > li {
   list-style: none;
   text-align: center;
 }
@@ -90,6 +90,6 @@ list.color-palette {
   */
 .invert-text-color {
   color: white;
-  //background-color: black;
+  background-color: black;
   mix-blend-mode: difference;
 }

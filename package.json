@@ -1,0 +1,22 @@
+{
+  "name": "styleguide.nicknelson.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt build",
+    "start": "grunt"
+  },
+  "author": "Nick Nelson",
+  "license": "ISC",
+  "devDependencies": {
+    "babelify": "^7.3.0",
+    "grunt": "^1.0.1",
+    "grunt-browserify": "^5.0.0",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-htmlmin": "^2.3.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-jscs": "^3.0.1"
+  }
+}
